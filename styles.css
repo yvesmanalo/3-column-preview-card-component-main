@@ -1,0 +1,126 @@
+body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main{
+    width: 900px;
+    margin: auto;
+    display: flex;
+    
+}
+.container{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 2.5em 3.5em 2.1em 2em;
+}
+
+.sedan{
+    background-color: hsl(31, 77%, 52%);
+    border-radius: 0.8em 0 0 0.8em;
+}
+
+.suv{
+    background-color:hsl(184, 100%, 22%);
+}
+
+.luxury{
+    background-color: hsl(179, 100%, 13%);
+    border-radius:  0 0.8em 0.8em 0;
+}
+
+h2{
+    font-family: 'Big Shoulders Display', cursive;
+    font-weight: 700;
+    color: white;
+    font-size: 35px;
+}
+
+p{
+    margin-top: 0;
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 2em;
+    color: white;
+}
+
+.learn-more{
+    margin-top: 3em;
+    border: 0;
+    background-color: white;
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    border-radius: 2em;
+    padding: 1em 1.5em;
+}
+
+.button-sedan{
+    color:hsl(31, 77%, 52%);
+}
+
+.button-suv{
+    color:hsl(184, 100%, 22%);
+}
+
+.button-luxury{
+    color:hsl(179, 100%, 13%);
+}
+
+/* font-family: 'Lexend Deca', sans-serif; */
+/* font-family: 'Big Shoulders Display', cursive; */
+
+.learn-more:hover{
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+}
+
+@media (max-width:375px){
+   body{
+        min-height: 100vh;
+        min-width: 100vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    } 
+    
+    main{
+        width: 338px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: auto;  
+    }
+
+    .container{
+        width: 250px;
+    }
+
+    .sedan{
+        background-color: hsl(31, 77%, 52%);
+        border-radius: 0.8em 0.8em 0 0;
+    }
+
+    .luxury{
+        background-color: hsl(179, 100%, 13%);
+        border-radius:  0 0 0.8em 0.8em;
+    }
+    
+    .learn-more{
+        margin-top: 2em;
+    }
+
+    
+}
+
+
+
+
